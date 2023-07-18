@@ -11,6 +11,9 @@ if(add){
       result = 0;
     }
     output.innerText = result;
+    output.style.transform = 'translateY(-100%)';
+    output.style.opacity = 0 ;
+    output.style.transitionDuration = '0s'
     
     
   });}

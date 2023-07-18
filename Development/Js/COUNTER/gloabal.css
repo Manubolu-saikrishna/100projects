@@ -24,12 +24,14 @@
     border-radius: 8px;
 background-color: #3a78ef;
 font-size: 50px;
+
 }
 #subtract{
     border: none;
     background-color: #deeafe;
     color:#3a78ef;
     font-size: 50px;
+    
 }
 #add{
     background-color: #deeafe;
@@ -44,4 +46,9 @@ font-size: 50px;
     margin: 12px 0px; 
     color: #caddfb;
     flex-direction: column;
+    
 }
+
+.button:hover {
+    color: #3978ef;
+  }
