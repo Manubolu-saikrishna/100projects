@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="index.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="gloabal.css" />
+</head>
+<body>
+  <div class="container">
+    <img class="box1" src="images/Rectangle 2.svg" />
+    <img class="box3" src="images/Group 35.png" />
+    <img class="box4" src="images/Ellipse 1.png" />
+    <img class="box5" src="images/Rectangle 2.svg" />
+    <img class="box6" src="images/Group 35.png" />
+    <img class="box7" src="images/Ellipse 3.png" />
+
+    <div class="box">
+      <div class="firstHalfCalculator">
+        <div class="firstHalfCalculatorForm">
+          <form name="form1">
+            <input class="textview" name="textview">
+          </form>
+        </div>
+      </div>
+      <div class="secondHalfcalculator">
+        <div class="middleline"></div>
+        <div class="btn-row">
+          <button onclick="form1.textview.value=''">C</button>
+          <button onclick="insert('-')">+/-</button>
+          <button onclick="insert('%')">%</button>
+          <button onclick="insert('/')">÷</button>
+        </div>
+        <div class="btn-row">
+          <button onclick="insert(7)">7</button>
+          <button onclick="insert(8)">8</button>
+          <button onclick="insert(9)">9</button>
+          <button onclick="insert('*')">*</button>
+        </div>
+
+        <div class="btn-row">
+          <button onclick="insert(4)">4</button>
+          <button onclick="insert(5)">5</button>
+          <button onclick="insert(6)">6</button>
+          <button onclick="insert('-')">-</button>
+        </div>
+
+        <div class="btn-row">
+          <button onclick="insert(1)">1</button>
+          <button onclick="insert(2)">2</button>
+          <button onclick="insert(3)">3</button>
+          <button onclick="insert('+')">+</button>
+        </div>
+
+        <div class="btn-row">
+          <button class="btn-row2" onclick="insert(0)">0</button>
+          <button class="btn-row3" onclick="insert('.')">.</button>
+          <button class="btn-row4" onclick="equal()">=</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

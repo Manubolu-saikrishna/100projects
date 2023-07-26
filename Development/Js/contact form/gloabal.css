@@ -1,0 +1,160 @@
+.container{
+    /* Rectangle 1 */
+position: relative;
+box-sizing: border-box;
+margin: 50px auto;
+width:800px;
+height: 600px;
+left: 0px;
+top: 2px;
+
+background: #F0F0F3;
+border: 1px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+overflow: hidden;
+
+}
+
+/* Group 37 2 */
+.box{
+    box-sizing: border-box;
+
+position: absolute;
+width: 199.81px;
+height: 400.11px;
+left: 300.33px;
+top: 99.94px;
+border: 1px solid #000000;
+border-radius: 12px;
+
+}
+.box1{
+/* Rectangle 3 */
+
+position: absolute;
+
+left: 56.57px;
+top: 129.7px;
+background: #F0F0F3;
+border-radius: 12px;
+}
+.box2{
+    /* Group 39 */
+
+position: absolute;
+width: 65.25px;
+height: 112.49px;
+left: 186px;
+top: 149px;
+
+}
+.box3{
+    
+/* Group 35 */
+
+position: absolute;
+width: 65.25px;
+height: 112.49px;
+left: 271px;
+top: 63px;
+
+
+}
+.box4{
+    /* Ellipse 1 */
+
+/* Ellipse 1 */
+
+position: absolute;
+
+left: 56.57px;
+top: 452.72px;
+
+background: #F0F0F3;
+
+
+}
+.box5{
+    /* Rectangle 2 */
+
+position: absolute;
+
+left: 577px;
+top: 57.58px;
+
+border-radius: 12px;
+
+}
+.box6{
+    /* Group 38 */
+
+position: absolute;
+
+left: 473px;
+top: 346px;
+}
+
+.box7{
+
+    /* Ellipse 2 */
+
+position: absolute;
+
+left: 624.11px;
+top: 415.58px;
+
+
+}
+.firstHalfCalculator{
+
+    height: 40%;
+    background-color: #000000; 
+}
+.secondHalfcalculator{
+    height: 100%;
+    background-color: F0F0F3;
+}
+.btn-row{
+    display: flex;
+}
+
+.btn-row2{
+    flex: 2;
+    width: 50%;
+    padding: 5px;
+    margin: 5px;
+    background-color: F0F0F3;
+
+}
+.btn-row3,.btn-row4{
+    flex: 1;
+    width: 50%;
+    padding: 5px;
+    margin: 5px;
+    background-color: F0F0F3;
+
+}
+
+.btn-row>button{
+    width: 50%;
+    padding: 5px;
+    margin: 5px;
+    background-color: F0F0F3;
+}
+.middleline{
+    height: 4px;
+    width:100px;
+    margin: 20px auto;
+}
+.firstHalfCalculatorForm{
+    margin-top: auto;
+}
+.firstHalfCalculatorForm1{
+    margin-top: auto;
+}
+.textview{
+
+    padding: 0px 16px;
+    margin: 135px 0px;
+}
